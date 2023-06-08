@@ -2,9 +2,8 @@ from Autos import Auto
 from AutoUsado import Usado
 from AutoNuevo import Nuevo
 from Nodo import Nodo
-from Coleccion import IColeccion
 
-class Lista(IColeccion):
+class Lista:
     __comienzo = Nodo
     __actual = Nodo
     __indice: int
